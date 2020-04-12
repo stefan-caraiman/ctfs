@@ -40,3 +40,8 @@
 ```console
 $ nmap -p- -A -sC -sV -oN nmap/full 10.10.30.172
 ```
+
+
+## Helpful links:
+
+	* https://gtfobins.github.io/
