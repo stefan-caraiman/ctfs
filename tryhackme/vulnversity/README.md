@@ -2,6 +2,8 @@
 
 ## Answers:
 
+### [Task 2] Reconnaissance
+
 <details>
   <summary>2. Scan the box, how many ports are open?</summary>
   6
@@ -33,12 +35,18 @@
   3333
 </details>
 
+### [Task 3] Locating directories using GoBuster
 
+<details>
+  <summary>2. What is the directory that has an upload form page?</summary>
+  /internal/
+</details>
 
 ## Commands being used on this CTF:
 
 ```console
 $ nmap -p- -A -sC -sV -oN nmap/full 10.10.30.172
+$ gobuster dir -u http://10.10.30.172:3333 -w /usr/share/seclists/Discovery/Web-Content/common.txt
 ```
 
 
