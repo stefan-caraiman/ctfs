@@ -1,0 +1,20 @@
+# Nmap 7.60 scan initiated Mon Sep  7 19:02:06 2020 as: nmap -sC -sV -oN nmap/jack 10.10.86.69
+Nmap scan report for 10.10.86.69
+Host is up (0.13s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 3e:79:78:08:93:31:d0:83:7f:e2:bc:b6:14:bf:5d:9b (RSA)
+|   256 3a:67:9f:af:7e:66:fa:e3:f8:c7:54:49:63:38:a2:93 (ECDSA)
+|_  256 8c:ef:55:b0:23:73:2c:14:09:45:22:ac:84:cb:40:d2 (EdDSA)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-generator: WordPress 5.3.2
+| http-robots.txt: 1 disallowed entry 
+|_/wp-admin/
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Jack&#039;s Personal Site &#8211; Blog for Jacks writing adven...
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Sep  7 19:04:41 2020 -- 1 IP address (1 host up) scanned in 155.35 seconds
