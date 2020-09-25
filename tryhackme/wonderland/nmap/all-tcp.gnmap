@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Sat Sep 12 13:26:33 2020 as: nmap -sC -sV -oA nmap/all-tcp 10.10.36.102
+Host: 10.10.36.102 ()	Status: Up
+Host: 10.10.36.102 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Golang net|http server (Go-IPFS json-rpc or InfluxDB API)/	Ignored State: closed (998)
+# Nmap done at Sat Sep 12 13:26:56 2020 -- 1 IP address (1 host up) scanned in 23.30 seconds
